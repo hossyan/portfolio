@@ -264,6 +264,7 @@ span {
 .ch {
     width: 60%;
     border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 1000px) {
@@ -274,4 +275,9 @@ span {
 
 .img_title {
     text-align: center;
+}
+
+.img_link {
+    color: #5598de;
+    border-bottom: dotted 3px #5598de;
 }
