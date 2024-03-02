@@ -12,9 +12,11 @@ html {
 }
 
 .responsive {
-    width: 100%;
+    width: 80%;
     aspect-ratio: 16/9;
-    }
+    display: block;
+    margin: 0 auto;
+}
 
 /* body {
     color: #24292e;
@@ -30,7 +32,8 @@ h5 {
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    text-align: left;
 }
 
 img {
@@ -50,6 +53,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #edf2f6;
+    text-align: center;
 }
 
 
@@ -102,6 +106,7 @@ body {
     position: relative;
     border-bottom: solid 3px #e3e3e2;
     /* 線 */
+    text-align: left;
 }
 
 .underline_title:after {
@@ -125,6 +130,7 @@ body {
     margin-bottom: 1em;
     border-left: 5px solid #5598de;
     /* 線 */
+    text-align: left;
 }
 
 /* スクロール用ボタン */
@@ -247,4 +253,25 @@ hr {
 .sns .github .fa-brands {
     font-size: 30px;
     padding: 0 15px;
+}
+
+
+span {
+    background: linear-gradient(transparent 60%, #ff6 60%);
+    font-weight: bold;
+}
+
+.ch {
+    width: 60%;
+    border-radius: 5px;
+}
+
+@media (max-width: 1000px) {
+    .ch {
+        width: 90%;
+    }
+}
+
+.img_title {
+    text-align: center;
 }
