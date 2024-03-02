@@ -267,8 +267,16 @@ span {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
+.ch_irasto {
+    width: 60%;
+    border-radius: 5px;
+}
+
 @media (max-width: 1000px) {
     .ch {
+        width: 90%;
+    }
+    .ch_irasto {
         width: 90%;
     }
 }
