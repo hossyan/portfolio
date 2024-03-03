@@ -18,6 +18,12 @@ html {
     margin: 0 auto;
 }
 
+@media (max-width: 1000px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
 /* body {
     color: #24292e;
     background-color: #f0f0f0;
