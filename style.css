@@ -424,7 +424,7 @@ h6 {
     text-align: center;
 }
 
-@media (750px <=width <=1110px) {
+@media (747px <=width <=1110px) {
     .work {
         width: 100%;
         max-width: 1110px;
@@ -434,7 +434,7 @@ h6 {
     }
 }
 
-@media (0px <=width <=750px) {
+@media (0px <=width <=747px) {
     .work {
         width: 100%;
         max-width: 800px;
