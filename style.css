@@ -525,11 +525,20 @@ a {
     padding-right: 30px;
 }
 
+.news_list_item p {
+    color: #24292e;
+}
+
 .news_list_date {
     font-size: 15px;
     display: flex;
     margin-right: 15px;
     align-items: center;
+    color: #24292e;
+}
+
+.news_link .fa-solid{
+    color: #418bda;
 }
 
 .arrow {
