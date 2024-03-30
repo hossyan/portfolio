@@ -376,6 +376,7 @@ li {
     /* アスペクト比を保つために高さは自動調整 */
     max-width: 250px;
     /* 画像の最大幅を指定（例: 400px） */
+    border-radius: 10px;
 }
 
 .achivement {
@@ -502,6 +503,7 @@ h6 {
     /* アスペクト比を保つために高さは自動調整 */
     max-width: 250px;
     /* 画像の最大幅を指定（例: 400px） */
+    border-radius: 10px;
 }
 
 .work_top {
