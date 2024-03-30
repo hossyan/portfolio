@@ -157,6 +157,15 @@ li {
         /* 画像の下にスペースを作成 */
         width: 90%;
     }
+
+    .about-text p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .about-text h2 {
+        text-align: center;
+    }
 }
 
 /* pc */
@@ -260,6 +269,7 @@ li {
 .skill_title {
     text-align: center;
     font-size: 2rem;
+    margin-top: 20px;
 }
 
 .skill_top {
@@ -270,7 +280,7 @@ li {
     align-items: center;
 }
 
-.skill {
+/* .skill {
     display: flex;
     justify-content: space-around;
     text-align: center;
@@ -279,6 +289,67 @@ li {
     max-width: 1300px;
     width: 100%;
     flex-wrap: wrap;
+} */
+
+.skill {
+    width: 100%;
+    max-width: 1300px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 24px;
+}
+
+@media (width < 850px) {
+    .skill {
+        width: 100%;
+        max-width: 1110px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (width < 430px) {
+    .skill_p p {
+        font-size: 10px;
+    }
+
+    .design_pie {
+        width: 150px;
+        height: 150px;
+    }
+
+    .processing_pie {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .language_pie {
+        width: 150px;
+        height: 150px;
+        }
+    
+    .web_pie {
+        width: 150px;
+        height: 150px;
+    }
+
+    .design_pie .fa-solid {
+        font-size: 40px;
+    }
+    
+    .processing_pie .fa-solid {
+        font-size: 40px;
+    }
+    
+    .language_pie .fa-solid {
+        font-size: 40px;
+    }
+    
+    .web_pie .fa-solid {
+        font-size: 40px;
+    }
 }
 
 .pie {
@@ -310,7 +381,7 @@ li {
 .achivement {
     /* background-color: #f0f0f0; */
     width: 100%;
-    padding: 40px 0;
+    padding: 20px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,7 +394,7 @@ li {
     text-align: center;
 }
 
-.box {
+/* .box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -331,6 +402,35 @@ li {
     min-height: 400px;
     flex-wrap: wrap;
     max-width: 1300px;
+} */
+
+.box {
+    width: 100%;
+    max-width: 1300px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 24px;
+}
+
+@media (626px <=width <=938px) {
+    .box {
+        width: 100%;
+        max-width: 1110px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (0px <=width <=626px) {
+    .box {
+        width: 100%;
+        max-width: 800px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .card {
@@ -376,6 +476,13 @@ h6 {
     border: 2px solid #5598de;
     cursor: pointer;
     color: #5598de;
+}
+
+@media (width < 1120px) {
+    .card {
+        height: 400px;
+        width: 310px;
+    }
 }
 
 /* award section finish */
@@ -424,7 +531,7 @@ h6 {
     text-align: center;
 }
 
-@media (747px <=width <=1110px) {
+@media (626px <=width <=938px) {
     .work {
         width: 100%;
         max-width: 1110px;
@@ -434,7 +541,7 @@ h6 {
     }
 }
 
-@media (0px <=width <=747px) {
+@media (0px <=width <=626px) {
     .work {
         width: 100%;
         max-width: 800px;
@@ -465,6 +572,13 @@ h6 {
     border: 2px solid #5598de;
     cursor: pointer;
     color: #5598de;
+}
+
+@media (width < 1120px){
+    .work_card {
+        height: 430px;
+        width: 310px;
+    }
 }
 
 /* work finish */
