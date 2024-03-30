@@ -480,9 +480,9 @@ h6 {
 
 @media (width < 1120px) {
     .card {
-        height: 400px;
+        height: 410px;
         width: 310px;
-        padding: 20px 20px;
+        padding: 20px 28px;
     }
 }
 
@@ -579,7 +579,7 @@ h6 {
     .work_card {
         height: 430px;
         width: 310px;
-        padding: 20px 20px;
+        padding: 20px 28px;
     }
 }
 
