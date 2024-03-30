@@ -414,7 +414,7 @@ li {
     margin-bottom: 24px;
 }
 
-@media (626px <=width <=938px) {
+@media (628px <=width <=938px) {
     .box {
         width: 100%;
         max-width: 1110px;
@@ -424,7 +424,7 @@ li {
     }
 }
 
-@media (0px <=width <=626px) {
+@media (0px <=width <=628px) {
     .box {
         width: 100%;
         max-width: 800px;
@@ -534,7 +534,7 @@ h6 {
     text-align: center;
 }
 
-@media (626px <=width <=938px) {
+@media (628px <=width <=938px) {
     .work {
         width: 100%;
         max-width: 1110px;
@@ -544,7 +544,7 @@ h6 {
     }
 }
 
-@media (0px <=width <=626px) {
+@media (0px <=width <=628px) {
     .work {
         width: 100%;
         max-width: 800px;
