@@ -34,13 +34,19 @@
                 </p>
                 <br><br>
 
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/2k6H5Qa_fCE?si=TQqzLJABW8h0hPAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="responsive">
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/2k6H5Qa_fCE?si=TQqzLJABW8h0hPAY"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
                 <br>
     
 
                 <p class="leftline_title">ハンドトラッキング</p>
                 <p>
-                    Googleが提供しているMediaPipeを用いて画像認識にて座標を取得しました。UDPで指先の座標をTouchdesignerに送り、それをもとに外力を与えています。動画では体全体の座標を取っていますが、完成品では右手の人差し指だけに限定しています。<br>
+                    Googleが提供しているMediaPipeを用いて画像認識にて座標を取得しました。動画では体全体の座標を取っていますが、完成品では右手の人差し指だけに限定しています。<br>
                     MediaPipeで取得する座標とtouchdesigner内での座標では原点や方向が違ったため、変換したものをUDPでTouchdesignerに送っています。
                 </p>
                 <br>
