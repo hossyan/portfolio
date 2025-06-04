@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo_page_top.png">
+    <title>Hoshikawa Koki</title>
+    <!-- 追加したやつ -->
+    <link rel="stylesheet" href="style_article.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a9815af5e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- 横幅最大1300px -->
+
+<body>
+    <div class="airticle_top" id="header">
+        <div class="airticle">
+            <div class="airticle_text">
+                <h1 class="title">ハンドトラッキング流体シミュレータ</h1>
+                <img src="img/work_fluidsim1.png" alt="" class="title_img">
+
+                <p class="underline_title">製作したもの</p>
+                <p>
+                    カメラに表示されている人間の右手の人差し指の座標を取得し、そこから流体シュミレータに外力として与えるような物を作りました。
+                </p>
+
+                <p class="leftline_title">流体シュミレータ</p>
+                <p>
+                    Touchdesignerを用いてシミュレータを製作しています。youtubeの動画と同じものを作っています。
+                </p>
+                <br><br>
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/2k6H5Qa_fCE?si=TQqzLJABW8h0hPAY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br>
+    
+
+                <p class="leftline_title">ハンドトラッキング</p>
+                <p>
+                    Googleが提供しているMediaPipeを用いて画像認識にて座標を取得しました。UDPで指先の座標をTouchdesignerに送り、それをもとに外力を与えています。動画では体全体の座標を取っていますが、完成品では右手の人差し指だけに限定しています。<br>
+                    MediaPipeで取得する座標とtouchdesigner内での座標では原点や方向が違ったため、変換したものをUDPでTouchdesignerに送っています。
+                </p>
+                <br>
+                <video controls src="movie/fulidsim1.mp4" poster="movie/fluidsim1_icon.png" class="ch"></video>
+                <p class="img_title">動作の様子</p>
+                <br>
+
+                <p class="leftline_title">完成したもの</p>
+                <video controls src="movie/fluidsim2.mp4" poster="movie/fluidsim2_icon.png" class="ch"></video>
+
+
+                <br><br>
+                <!-- scroll button -->
+                <a href="#header" class="scroll_button">く</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="md-flex md-justify-between">
+            <a href="index.html#header" class="footer__logo">
+                <img src="img/logo2.png" width="250" alt="" />
+            </a>
+            <ul class="footer__navi flex">
+                <li><a href="index.html#header">Home</a></li>
+                <li><a href="index.html#title">Awards</a></li>
+                <li><a href="index.html#work_title">Works</a></li>
+                <li><a href="index.html#other_title">Others</a></li>
+            </ul>
+        </div>
+        <hr />
+        <p class="copyright">
+            All Rights Reserved.<br>
+            Gmail:sv25632c[at]st.omu.ac.jp <br>
+            [at]は@に直しご連絡ください。
+        <div class="sns">
+            <a href="https://twitter.com/HOSSYANSYAN" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/HOSSYAN" class="github"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        </p>
+    </footer>
+</body>
+
+
+</html>
