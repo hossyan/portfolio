@@ -227,7 +227,7 @@ li {
     height: 200px;
     font-size: 26px;
     font-weight: 700;
-    background-image: radial-gradient(#f2f2f2 35%, transparent 36%), conic-gradient(#9fda9d 0% 40%, #d9d9d9 40% 100%);
+    background-image: radial-gradient(#f2f2f2 35%, transparent 36%), conic-gradient(#9fda9d 0% 50%, #d9d9d9 50% 100%);
     border-radius: 50%;
 }
 
@@ -241,7 +241,7 @@ li {
     height: 200px;
     font-size: 26px;
     font-weight: 700;
-    background-image: radial-gradient(#f2f2f2 35%, transparent 36%), conic-gradient(#ccaed8 0% 50%, #d9d9d9 50% 100%);
+    background-image: radial-gradient(#f2f2f2 35%, transparent 36%), conic-gradient(#ccaed8 0% 40%, #d9d9d9 40% 100%);
     border-radius: 50%;
 }
 

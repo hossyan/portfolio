@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo_page_top.png">
+    <title>Hoshikawa Koki</title>
+    <!-- 追加したやつ -->
+    <link rel="stylesheet" href="style_article.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a9815af5e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- 横幅最大1300px -->
+
+<body>
+    <div class="airticle_top" id="header">
+        <div class="airticle">
+            <div class="airticle_text">
+                <h1 class="title">卒業式用答辞受け渡しロボット</h1>
+                <img src="img/work_roboarm.png" alt="" class="title_img">
+
+                <!-- 1.最重要視事項 -->
+                <p class="underline_title">製作背景</p>
+                <p>
+                    高専の卒業式にて、印象に残る「何か」を起こし、その面白さを会場全員で共有したいと考えました。そこで、卒業生が担当する答辞について原稿用紙をロボットが運んで来て受け渡すロボットを提案しました。
+
+                </p>
+
+                <p class="underline_title">製作したもの</p>
+                <p>
+                    タイトル写真に取り付けられたロボットアームを作成しました。機械設計から制御まで全てを一人で担当しました。
+                </p>
+
+                <p class="leftline_title">ハードウェア</p>
+                <p>
+                    Fusionを用いて設計を行い、実物を製作いたしました。
+                </p>
+                    <br>
+                    <img src="img/work_roboarm2.png" alt="" class="ch">
+                    <p class="img_title">設計したロボットアーム</p>
+                    <br>
+
+                <p class="leftline_title">ソフトウェア</p>
+                <p>
+                    メインマイコンとしてM5stack Core2を使い制御を行いました。ロボットアームはPID制御で動作させており、そのデバックのためにスマホコントローラを作成しました。
+                </p>
+                    <br>
+                    <img src="img/work_roboarm3.png" alt="" class="ch">
+                    <p class="img_title">システム構成図</p>
+                    <br>
+                    <img src="img/work_roboarm4.png" alt="" class="ch">
+                    <p class="img_title">スマホコントローラ</p>
+                    <br>
+                    <video controls src="movie/roboarm1.mp4" poster="movie/work_roboarm5.png" class="ch"></video>
+                    <p class="img_title">動作の様子</p>
+                    <br>
+
+                <p class="leftline_title">本番での動作</p>
+                    <video controls src="movie/roboarm2.mp4" poster="movie/work_roboarm6.png" class="ch"></video>
+                    <p class="img_title">本番の様子</p>
+
+
+                <br><br>
+                <!-- scroll button -->
+                <a href="#header" class="scroll_button">く</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="md-flex md-justify-between">
+            <a href="index.html#header" class="footer__logo">
+                <img src="img/logo2.png" width="250" alt="" />
+            </a>
+            <ul class="footer__navi flex">
+                <li><a href="index.html#header">Home</a></li>
+                <li><a href="index.html#title">Awards</a></li>
+                <li><a href="index.html#work_title">Works</a></li>
+                <li><a href="index.html#other_title">Others</a></li>
+            </ul>
+        </div>
+        <hr />
+        <p class="copyright">
+            All Rights Reserved.<br>
+            Gmail:R20127[at]st.omu.ac.jp <br>
+            [at]は@に直しご連絡ください。
+        <div class="sns">
+            <a href="https://twitter.com/HOSSYANSYAN" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/HOSSYAN" class="github"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        </p>
+    </footer>
+</body>
+
+
+</html>
