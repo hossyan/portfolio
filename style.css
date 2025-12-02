@@ -41,7 +41,7 @@ li {
     line-height: 1px;
     padding: 30px;
     display: inline-block;
-    /* ブロック要素に変更して横幅を文字に合わせる */
+    /* ブロ�?ク要�?に変更して横�?を文字に合わせる */
 }
 
 .site_title img {
@@ -154,7 +154,7 @@ li {
 
     #about .about-text {
         margin-top: 20px;
-        /* 画像の下にスペースを作成 */
+        /* 画像�?�下にスペ�?�スを作�?? */
         width: 90%;
     }
 
@@ -172,15 +172,15 @@ li {
 @media (min-width: 800px) {
     #about .main {
         justify-content: space-evenly;
-        /* .main内の要素を均等に配置 */
+        /* .main�?の要�?を均等に配置 */
     }
 
     #about .about-text {
         margin-left: 10%;
         /* 画像との間隔を調整 */
         width: calc(100% - 250px);
-        /* 800px以上の場合、.about-textの横幅を調整 */
-        /* 計算式の「250px」は.about-textのmargin-leftとmargin-rightの合計 */
+        /* 800px以上�?�場合�?.about-textの横�?を調整 */
+        /* 計算式�?��?250px」�?�.about-textのmargin-leftとmargin-rightの合�? */
     }
 }
 
@@ -371,11 +371,11 @@ li {
 /* award section  */
 .achivement .box .card img {
     width: 100%;
-    /* 画像の幅を親要素に合わせる */
+    /* 画像�?��?を親要�?に合わせる */
     height: auto;
     /* アスペクト比を保つために高さは自動調整 */
     max-width: 250px;
-    /* 画像の最大幅を指定（例: 400px） */
+    /* 画像�?�最大�?を指定（�?: 400px?�? */
     border-radius: 10px;
 }
 
@@ -498,11 +498,11 @@ h6 {
 
 .work_card img {
     width: 100%;
-    /* 画像の幅を親要素に合わせる */
+    /* 画像�?��?を親要�?に合わせる */
     height: auto;
     /* アスペクト比を保つために高さは自動調整 */
     max-width: 250px;
-    /* 画像の最大幅を指定（例: 400px） */
+    /* 画像�?�最大�?を指定（�?: 400px?�? */
     border-radius: 10px;
 }
 
@@ -622,7 +622,7 @@ a {
     margin: 0 auto;
 }
 
-/* ここからがニュース記事のCSS */
+/* ここからがニュース記事�?�CSS */
 
 .news_list {
     padding: 0 25px;
@@ -799,6 +799,11 @@ html {
     padding: 0 15px;
 }
 
+.sns .zenn .fa-brands {
+    font-size: 30px;
+    padding: 0 15px;
+}
+
 
 /* スクロール用ボタン */
 a.scroll_button {
@@ -810,14 +815,14 @@ a.scroll_button {
     justify-content: center;
     width: 70px;
     height: 70px;
-    background-color: rgba(169, 169, 169, 0.7); /* 灰色の少し透明な背景 */
+    background-color: rgba(169, 169, 169, 0.7); /* 灰色の少し透�?�な背景 */
     border-radius: 50%;
     text-decoration: none;
-    color: #fff; /* テキストの色 */
+    color: #fff; /* �?キスト�?�色 */
     font-size: 30px;
-    transform: rotate(90deg); /* テキストを右に90度回転 */
+    transform: rotate(90deg); /* �?キストを右に90度回転 */
 }
 
 a.scroll_button:hover {
-    background-color: rgba(169, 169, 169, 1); /* ホバー時の背景色 */
+    background-color: rgba(169, 169, 169, 1); /* ホバー時�?�背景色 */
 }
