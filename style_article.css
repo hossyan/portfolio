@@ -261,6 +261,16 @@ hr {
     padding: 0 15px;
 }
 
+.zenn-icon {
+    opacity: 0.4;
+    width: 58px;
+    height: 26px;
+}
+
+.zenn-icon:hover {
+    opacity: 1.0;
+}
+
 
 span {
     background: linear-gradient(transparent 60%, #ff6 60%);
