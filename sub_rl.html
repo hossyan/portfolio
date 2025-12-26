@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo_page_top.png">
+    <title>Hoshikawa Koki</title>
+    <!-- 追加したやつ -->
+    <link rel="stylesheet" href="style_article.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9a9815af5e.js" crossorigin="anonymous"></script>
+
+</head>
+
+<!-- 横幅最大1300px -->
+
+<body>
+    <div class="airticle_top" id="header">
+        <div class="airticle">
+            <div class="airticle_text">
+                <h1 class="title">深層強化学習 <br> モデル：倒立振子</h1>
+                <img src="img/work_rl1.png" alt="" class="title_img">
+
+                <p class="underline_title">製作背景</p>
+                <p>
+                    近年では、複雑モデルの制御を行う際には深層強化学習を用いることが多いらしく、その理論理解と実践的な経験を積むために制作しました。
+
+                </p>
+
+                <p class="underline_title">システム構成</p>
+                <p>
+                    ・強化学習ライブラリ：Stable-baselines3<br>
+                    ・強化学習アルゴリズム：PPO<br>
+                    ・シミュレーション環境：Gymnasium<br>
+                    ・物理シミュレーション：Mujoco<br>
+                    <br>
+                    下の写真のような、倒立振子を制御(Sim2Real)することを目指しました。<br><br>
+                </p>
+                <img src="img/work_rl2.png" alt="" class="ch">
+                <p class="img_title">制作したロボット</p>
+
+
+                <p class="underline_title">動作</p>
+                <p>
+                    シミュレータ上では以下のように動作しました。<br><br>
+                </p>
+                <div class="responsive">
+                    <iframe width="100%" height="100%"
+                        src="https://www.youtube.com/embed/FW-hovl22mY?si=u8oiElG8ZlcEHX56"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+
+                <p class="underline_title">現在の問題と今後の展望</p>
+                <p>
+                    現在シミュレータ内では出力値がバンバン制御のような挙動を示しています。そのため、Sim2Realがうまくいっていません。以下のような点に注意しながらデバックをしていきたいと思います。<br>
+                    ・モデル誤差<br>
+                    ・報酬設定(電流値に対するペナルティ)<br>
+                    ・各種パラメータにノイズ付与<br>
+
+                    プロジェクトの内容は以下のURL(zenn)に掲載しています。よろしければご覧になってください。<br><br><br>
+                </p>
+                <div class="iframely-embed"><div class="iframely-responsive" style="height: 140px; padding-bottom: 0;"><a href="https://zenn.dev/hossyan/scraps/4e3a19ce7a7528" data-iframely-url="https://iframely.net/xYxdBjjK?theme=light"></a></div></div><script async src="https://iframely.net/embed.js"></script>
+
+                <br><br>
+                <!-- scroll button -->
+                <a href="#header" class="scroll_button">く</a>
+
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="md-flex md-justify-between">
+            <a href="index.html#header" class="footer__logo">
+                <img src="img/logo2.png" width="250" alt="" />
+            </a>
+            <ul class="footer__navi flex">
+                <li><a href="index.html#header">Home</a></li>
+                <li><a href="index.html#work_title">Works</a></li>
+                <li><a href="index.html#title">Awards</a></li>
+                <li><a href="index.html#other_title">Others</a></li>
+            </ul>
+        </div>
+        <hr />
+        <p class="copyright">
+            All Rights Reserved.<br>
+            mail:sv25632c[at]st.omu.ac.jp <br>
+            [at]は@に直しご連絡ください。
+        <div class="sns">
+            <a href="https://twitter.com/HOSSYANSYAN" target="_blank" rel="noopener noreferrer" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://github.com/HOSSYAN" target="_blank" rel="noopener noreferrer" class="github"><i class="fa-brands fa-github"></i></a>
+            <a href="https://zenn.dev/hossyan" target="_blank" rel="noopener noreferrer" class="github"><img class="zenn-icon" src="img/zenn.svg" alt="Zenn" ></a>
+        </div>
+
+        </p>
+    </footer>
+</body>
+
+
+</html>
